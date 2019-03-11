@@ -1,0 +1,27 @@
+{
+    "presets": ["react-app"],
+    "plugins": [
+        "@babel/plugin-transform-runtime",
+        "@babel/plugin-transform-object-assign",
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        ["@babel/plugin-proposal-class-properties", { "loose": true }],
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "style": true
+            }
+        ],
+        [
+            "babel-plugin-react-css-modules",
+            {
+                "generateScopedName": "[local]-[hash:base64:10]",
+                "filetypes": {
+                    ".scss": {
+                        "syntax": "postcss-scss"
+                    }
+                }
+            }
+        ]
+    ]
+}

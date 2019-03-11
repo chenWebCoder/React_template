@@ -4,12 +4,16 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.2.2",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
     "@svgr/webpack": "4.1.0",
+    "antd": "^3.15.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
     "babel-jest": "23.6.0",
     "babel-loader": "8.0.5",
+    "babel-plugin-import": "^1.11.0",
     "babel-plugin-named-asset-import": "^0.3.1",
+    "babel-plugin-react-css-modules": "^5.2.1",
     "babel-preset-react-app": "^7.0.2",
     "bfj": "6.1.1",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
@@ -31,6 +35,8 @@
     "jest-pnp-resolver": "1.0.2",
     "jest-resolve": "23.6.0",
     "jest-watch-typeahead": "^0.2.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
     "mini-css-extract-plugin": "0.5.0",
     "node-sass": "^4.11.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
@@ -39,10 +45,12 @@
     "postcss-loader": "3.0.0",
     "postcss-preset-env": "6.5.0",
     "postcss-safe-parser": "4.0.1",
+    "postcss-scss": "^2.0.0",
     "react": "^16.8.4",
     "react-app-polyfill": "^0.2.2",
     "react-dev-utils": "^8.0.0",
     "react-dom": "^16.8.4",
+    "react-router-dom": "^4.3.1",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
@@ -51,6 +59,7 @@
     "webpack": "4.28.3",
     "webpack-dev-server": "3.1.14",
     "webpack-manifest-plugin": "2.0.4",
+    "webpackbar": "^3.1.5",
     "workbox-webpack-plugin": "3.6.3"
   },
   "scripts": {
@@ -110,11 +119,6 @@
     "watchPlugins": [
       "/Users/chenwei/rep/github/react-template/node_modules/jest-watch-typeahead/filename.js",
       "/Users/chenwei/rep/github/react-template/node_modules/jest-watch-typeahead/testname.js"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "react-app"
     ]
   }
 }
