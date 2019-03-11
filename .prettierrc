@@ -1,0 +1,52 @@
+{
+    "charset": "utf-8",
+    "printWidth": 120,
+    "end_of_line": "lf",
+    "tabWidth": 4,
+    "indent_size": 4,
+    "indent_style": "space",
+    "overrides": [
+        {
+            "files": "*.jsx",
+            "options": {
+                "parser": "babylon",
+                "semi": true,
+                "singleQuote": true,
+                "trailingComma": "es5",
+                "bracketSpacing": true,
+                "jsxBracketSameLine": false,
+                "arrowParens": "avoid"
+            }
+        },
+        {
+            "files": "*.js",
+            "options": {
+                "parser": "babylon",
+                "semi": true,
+                "singleQuote": true,
+                "trailingComma": "es5",
+                "bracketSpacing": true,
+                "jsxBracketSameLine": false,
+                "arrowParens": "avoid"
+            }
+        },
+        {
+            "files": "*.css",
+            "options": {
+                "parser": "css",
+                "singleQuote": true,
+                "tabWidth": 4,
+                "indent_size": 4
+            }
+        },
+        {
+            "files": "*.scss",
+            "options": {
+                "parser": "scss",
+                "singleQuote": true,
+                "tabWidth": 4,
+                "indent_size": 4
+            }
+        }
+    ]
+}
